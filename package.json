@@ -1,5 +1,21 @@
 {
-  "name": "yupp-m3u8",
+  "name": "yupp-m3u8-api",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "description": "YuppTV M3U8 stream URL extractor",
+  "main": "api/p.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
