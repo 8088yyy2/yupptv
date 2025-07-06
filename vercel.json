@@ -1,0 +1,9 @@
+{
+  "regions": ["sin1"], 
+  "functions": {
+    "api/p.js": {
+      "memory": 512,
+      "maxDuration": 10
+    }
+  }
+}
